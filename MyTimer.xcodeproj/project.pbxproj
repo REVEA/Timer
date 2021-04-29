@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65747B612624867B00368B19 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65747B602624867B00368B19 /* SettingView.swift */; };
 		6592E39026233F7B003FF28C /* MyTimerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6592E38F26233F7B003FF28C /* MyTimerApp.swift */; };
 		6592E39226233F7B003FF28C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6592E39126233F7B003FF28C /* ContentView.swift */; };
 		6592E39426233F7C003FF28C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6592E39326233F7C003FF28C /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		65747B602624867B00368B19 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 		6592E38C26233F7B003FF28C /* MyTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6592E38F26233F7B003FF28C /* MyTimerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTimerApp.swift; sourceTree = "<group>"; };
 		6592E39126233F7B003FF28C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 			children = (
 				6592E38F26233F7B003FF28C /* MyTimerApp.swift */,
 				6592E39126233F7B003FF28C /* ContentView.swift */,
+				65747B602624867B00368B19 /* SettingView.swift */,
 				6592E39326233F7C003FF28C /* Assets.xcassets */,
 				6592E39826233F7C003FF28C /* Info.plist */,
 				6592E39526233F7C003FF28C /* Preview Content */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65747B612624867B00368B19 /* SettingView.swift in Sources */,
 				6592E39226233F7B003FF28C /* ContentView.swift in Sources */,
 				6592E39026233F7B003FF28C /* MyTimerApp.swift in Sources */,
 			);
@@ -269,6 +273,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"MyTimer/Preview Content\"";
+				DEVELOPMENT_TEAM = HVR463NAL6;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = MyTimer/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -276,7 +281,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Swift-REVEA.MyTimer";
+				PRODUCT_BUNDLE_IDENTIFIER = "Swift-REVEA.Timer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -290,6 +295,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"MyTimer/Preview Content\"";
+				DEVELOPMENT_TEAM = HVR463NAL6;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = MyTimer/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -297,7 +303,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Swift-REVEA.MyTimer";
+				PRODUCT_BUNDLE_IDENTIFIER = "Swift-REVEA.Timer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
